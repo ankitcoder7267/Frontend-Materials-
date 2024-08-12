@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JOB APPLICATION</h2>
+
+    <form>
+    
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+
+        <label for="Branch">Branch:</label>
+        <input type="text" id="branch" name="name">
+        <br>
+        <br>
+
+        <label for="emailID">Email ID:</label>
+        <input type="text" id="emailID" name="emailID">
+        <br>
+        <br>
+
+        <label for="Phonenumber">Phone No:</label>
+        <input type="number" id="Phonenumber" name="Phonenumber">
+        <br>
+        <br>
+
+        <label for="fileupload">Resume</label>
+        <input type="file" name="fileupload" id="fileupload">
+        <br>
+        <br>
+
+        <label for="counter">Experience (in years):</label>
+        <input type="number" name="counter" id="counter" min="0" max="50">
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Topic of Interest</legend>
+                
+               
+                <input type="checkbox" name="checkbox" id="checkbox1">
+                <label for ="checkbox">HTML</label>
+                
+                <input type="checkbox" name="checkbox" id="checkbox4">
+                <label for ="checkbox">Bootstrap</label>
+                
+                <input type="checkbox" name="checkbox" id="checkbox2">
+                <label for ="checkbox2">CSS</label>
+                
+                <input type="checkbox" name="checkbox" id="checkbox3">
+                <label for ="checkbox3">JAVASCRIPT</label>
+                
+
+            </fieldset>
+            <br>
+
+            <label for="educationType">Highest Education</label>
+            <select name="educationType" id="educationType">
+                <option value="a">High School</option>
+                <option value="b">Diploma</option>
+                <option value="c">Master Degree</option>
+                <option value="d">Post graduation</option>
+                <option value="e">Graduation</option>
+
+            </select>
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Availability:</legend>
+
+                <label for="radio1">Full-time</label>
+                <input type="radio" name="radio" id="radio1">
+                <br>
+
+                <label for="radio2">Part-time</label>
+                <input type="radio" name="radio" id="radio2">
+                <br>
+            </fieldset>
+            
+            <br>
+            <label for="textarea1"> Additional Comments</label>
+            <br>
+            <textarea name="textarea" id="textarea1" cols="40" row="30"></textarea>
+
+            <input type="Submit" value="Submit Application">
+
+    </form>
+</body>
+</html>
